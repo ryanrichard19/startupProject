@@ -12,3 +12,8 @@ dotnet ef migrations add InitialIdentityModel --context appidentitydbcontext -p 
 dotnet ef database update -c appdbcontext -p ../StartupProject.Infrastructure/StartupProject.Infrastructure.csproj -s StartupProject.Web.csproj
 dotnet ef database update -c appidentitydbcontext -p ../StartupProject.Infrastructure/StartupProject.Infrastructure.csproj -s StartupProject.Web.csproj
 ```
+# Setting up github actions
+
+## Publish
+[Secrets setup Instructions](https://docs.microsoft.com/en-us/azure/app-service/deploy-github-actions)
+
