@@ -1,6 +1,8 @@
 # StartupProject
 This is a startup project to use as as starting point for other projects
 
+This project was created using [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html): pattern and principles in mind. 
+
 ## Migration Scripts
 ```powershell
 dotnet tool install --global dotnet-ef
